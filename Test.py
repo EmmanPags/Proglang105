@@ -17,11 +17,7 @@ print('c in float is' ,c)
 message = 'The result of a divided by b is'
 print(message + str(c))
 #Q5
-if a>b:
-    print('True')
-else:
-    print('False')
-if a==b:
-    print('True')
-elif a!=b:
-    print('False')
+result1 = a>b
+print(result1)
+result2 = a==b
+print(result2)

@@ -19,5 +19,9 @@ print(message + str(c))
 #Q5
 if a>b:
     print('True')
-elif a==b:
+else:
+    print('False')
+if a==b:
+    print('True')
+elif a!=b:
     print('False')
